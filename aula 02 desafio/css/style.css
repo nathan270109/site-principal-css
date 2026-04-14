@@ -1,0 +1,89 @@
+
+/* RESET */
+
+* {
+   box-sizing:border-box;
+   padding: 0;
+   margin: 0;
+}
+
+/* CORPO */
+
+body {
+   background: linear-gradient(to right top,#fefae0, #707070 );
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:17px;
+   line-height: 2em;
+   color: black;
+}
+ 
+/* CABEÇALHO */
+header {
+    margin-top: 20px;
+    background: linear-gradient(to top, #bc6c25, #dda15e);
+    color:white;
+    text-align: center;
+    padding: 16px 8px;
+ }
+
+ /* NAVEGAÇÃO */
+ nav {
+    text-align: center;
+    background-color: #bc6c25;
+    padding: 24px 12px;
+
+ }
+
+ /* LINKS DE NAVEGAÇÃO */
+ nav a {  
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background: #bc6c25;
+    transition: 1s; 
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 16px 16px;
+ }
+
+/* NAV A */
+ nav a:hover {
+    background-color: #dda15e;
+ }
+
+ /* CONTEUDO PRINCIPAL */
+ main {
+    max-width: 800px;
+    margin:auto;
+ }
+
+ /* MAIN H2 */
+ main h2 {
+    color: white;
+    background-color:#283618;
+    border-left: 10px;
+    margin: 20px 40px;
+    padding: 16px 40px;
+    border-radius: 10px;
+ }
+ /* UL */
+ ul {  
+    color: white;
+    list-style:inside;
+    background-color:#606c38;
+    margin:5px 40px;
+    border-radius: 10px;
+    padding: 16px 16px;
+ }
+
+ /*RODAPÉ*/
+ footer {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    margin-top: 100PX;
+    height: 100px;
+    text-align: center;
+    padding: 16px 16px;
+ }
