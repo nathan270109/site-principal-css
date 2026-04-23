@@ -1,0 +1,35 @@
+* ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(235, 255, 219);
+}
+
+.contato {
+    background-color: rgb(2, 153, 2);
+    color:white;
+    padding:16px 16px ;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.contato a {
+    background-color: rgb(2, 153, 2);
+    padding: 8px 8px;
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+.contato a:hover {
+    background-color: rgb(29, 114, 3);
+}
