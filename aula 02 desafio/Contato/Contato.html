@@ -11,7 +11,6 @@
 
 <body>
 
-    <!-- CABEÇALHO -->
     <header class="hero">
 
         <h1>Bem vindo! Eu sou o Nathan!</h1>
@@ -36,13 +35,14 @@
                     <input type="email" id="email" name="email" placeholder="Seu email" required minlength="3">
 
                     <label for="nome">Telefone</label>
-                    <input type="tel" name="tel" id="telefone" placeholder="(11) 99999-9999">
+                    <input type="tel" name="tel" id="telefone" placeholder="(11) 99999-9999" required>
                 </div>
             </fieldset>
 
             <fieldset>
-                <div class="campo">
+                
                 <legend>Mensagem</legend>
+                <div class="campo">
                 <select name="assunto" id="assunto" required>
                     <option value="">Selecione um...</option>
                     <option value="fotografia">Fotografia</option>
@@ -50,38 +50,68 @@
                     <option value="desenhista">Desenhista</option>
                     <option value="computador">Computador</option>
                 </select>
+                </div>
 
-                <textarea name="mensagem" id="mensagem" rows="5" minlength="20" required placeholder="Descreva seu projeto..."
-                ></textarea> 
-                </div> 
+                <textarea name="mensagem" id="mensagem" rows="5" minlength="20" required
+                    placeholder="Descreva seu projeto..."></textarea>
+
+
             </fieldset>
 
-            <div class="botão">
-                <button type="reset">Limpar formulário</button>
-                <button type="submit">Enviar mensagem</button>
-            </div>
+            <fieldset>
+                <legend>Termos</legend>
+
+                <div class="campo">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">
+                        Aceito os
+                        <a href="termos.html">termos de uso</a>
+                    </label>
+                </div>
+
+                <div class="botão">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar mensagem</button>
+                </div>
+            </fieldset>
+
         </form>
 
         <table>
             <caption>Horários de atendimento</caption>
 
             <thead>
-              <tr><th scope="col">Dia</th><th scope="col">Horários</th></tr>
+                <tr>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Horários</th>
+                </tr>
             </thead>
 
             <tbody>
-                  <tr><td>Seg-Sex</td><td>8h-18h</td></tr>
-                  <tr><td>Sábado</td><td>9h-13h</td></tr>
+                <tr>
+                    <td>Seg-Sex</td>
+                    <td>8h-18h</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>9h-13h</td>
+                </tr>
             </tbody>
 
             <tfoot>
-                <tr><td colspan="2">Domingo: fechado</td></tr>
+                <tr>
+                    <td colspan="2">Domingo: fechado</td>
+                </tr>
             </tfoot>
         </table>
 
 
 
     </main>
+    <footer>
+
+        
+    </footer>
 
 </body>
 
